@@ -1,3 +1,4 @@
+import Registration from "./components/Registration";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -19,6 +20,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/tours" element={<Tours />} />
         <Route path="/about" element={<About />} />
+        <Route path="/registration" element={<Registration />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
